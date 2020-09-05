@@ -34,6 +34,7 @@ require (
 	github.com/mattn/go-colorable v0.1.7
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/mitchellh/go-ps v1.0.0
+	github.com/moricho/tparallel v0.1.0
 	github.com/nakabonne/nestif v0.3.0
 	github.com/nishanths/exhaustive v0.0.0-20200708172631-8866003e3856
 	github.com/pkg/errors v0.9.1
@@ -58,7 +59,7 @@ require (
 	github.com/ultraware/whitespace v0.0.4
 	github.com/uudashr/gocognit v1.0.1
 	github.com/valyala/quicktemplate v1.6.2
-	golang.org/x/tools v0.0.0-20200812195022-5ae4c3c160a0
+	golang.org/x/tools v0.0.0-20200831203904-5a2aa26beb65
 	gopkg.in/yaml.v2 v2.3.0
 	honnef.co/go/tools v0.0.1-2020.1.5
 	mvdan.cc/gofumpt v0.0.0-20200709182408-4fd085cb6d5f

@@ -108,6 +108,10 @@ func (m Manager) GetAllSupportedLinterConfigs() []*linter.Config {
 			WithLoadForGoAnalysis().
 			WithPresets(linter.PresetPerformance, linter.PresetBugs).
 			WithURL("https://github.com/sonatard/noctx"),
+		linter.NewConfig(golinters.NewTparallel()).
+			WithLoadForGoAnalysis().
+			WithPresets(linter.PresetPerformance, linter.PresetBugs).
+			WithURL("https://github.com/moricho/tparallel"),
 		linter.NewConfig(golinters.NewErrcheck()).
 			WithLoadForGoAnalysis().
 			WithPresets(linter.PresetBugs).

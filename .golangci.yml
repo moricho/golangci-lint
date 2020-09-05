@@ -119,6 +119,7 @@ linters:
   # - nestif
   # - prealloc
   # - testpackage
+  # - tparallel
   # - wsl
 
 issues:
